@@ -77,7 +77,7 @@ def make_black_v2(x, name, blink_time = 0.15, repeat_every_x = 100): #white blin
 
 os.system("mkdir temp temp/yamera out")
 #input_file = "yamera/EWIS8487.MOV"
-input_file = "yamera/compressed_video.mp4" #compression smooths image and removes flickering pixels from under-exposition
+input_file = "compressed_input_video.mp4" #compression smooths image and removes flickering pixels from under-exposition
 bandreject(input_file)
 white = VideoFileClip("in/1920x1080-white-solid-color-background.jpg")
 black = VideoFileClip("in/1920x1080-black-solid-color-background.jpg")
