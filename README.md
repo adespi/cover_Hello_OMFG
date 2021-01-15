@@ -16,3 +16,6 @@ Les étapes de la réalisation :
 
 Musique originale :
 https://youtu.be/ih2xubMaZWI
+
+Dependencies :
+pip install varname moviepy
