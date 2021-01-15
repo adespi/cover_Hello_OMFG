@@ -230,5 +230,6 @@ set10 = concatenate_videoclips(3 * [a_x2.subclip(0, mesured*4).volumex(0.5)] + 3
 
 final_clip = concatenate_videoclips([intro, set1, set2, set3, set4, set5, set6, set7, pause, set8, set9, set10])
 #OUTPUT FINAL VIDEO
-final_clip.write_videofile("out/hellov10_compressed.mp4")
-os.system("ffmpeg -i out/hellov10_compressed.mp4 -vcodec libx265 -crf 28 out/hellov10_compressed_again.mp4 -y")
+final_clip.write_videofile("out/Hello_OMFG_cover_by_Despi.mp4")
+os.system("ffmpeg -i out/Hello_OMFG_cover_by_Despi.mp4 -vcodec libx265 -crf 28 out/Hello_OMFG_cover_by_Despi_compressed.mp4 -y")
+os.system("rm -r temp/")
