@@ -2,3 +2,6 @@ temp/
 cTEMP* #temp files from processing
 out/*
 !out/Hello_OMFG_cover_by_Despi_compressed.mp4
+in/*.webm
+in/yamera/
+in/*.MOV
