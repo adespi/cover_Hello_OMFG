@@ -18,3 +18,6 @@ https://youtu.be/ih2xubMaZWI
 
 <ins>Dependencies :</ins>
 pip install varname moviepy
+
+<ins>To run :</ins>
+python3 video_edition.py
