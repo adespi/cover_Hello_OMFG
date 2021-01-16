@@ -1,7 +1,7 @@
 # Cover Hello OMFG by Despi
 Video and audio edition of a bottle song, covering Hello from OMFG
 
-++Steps :++
+<ins>Steps :</ins>
 1. take glass bottles
 2. Tune the bottles by filling them with water
 3. cut a piano sheet into several sequences
@@ -13,8 +13,8 @@ Video and audio edition of a bottle song, covering Hello from OMFG
 9. add flashes
 10. export the video
 
-++Original music :++
+<ins>Original music :</ins>
 https://youtu.be/ih2xubMaZWI
 
-++Dependencies :++
+<ins>Dependencies :</ins>
 pip install varname moviepy
